@@ -173,4 +173,3 @@ let newArticles = data.map( item => {
   return item;
 })
 
-console.log(newArticles);
