@@ -160,6 +160,7 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
 
   expandBtn.addEventListener('click', e => {
     article.classList.toggle('article-open');
+    //gsap.to(".article", {rotation: 27, x: 100, duration: 1});
   })
 
   return article;
