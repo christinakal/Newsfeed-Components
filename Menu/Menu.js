@@ -66,5 +66,7 @@ parent.appendChild(createMenu(menuItems));
 
 menuButton.addEventListener('click', e => {
   createMenu(menuItems);
+  gsap.to(".menu", { scaleX: 2, duration: 1, repeat: true});
 })
+
 
